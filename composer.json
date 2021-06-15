@@ -1,0 +1,25 @@
+{
+	"name": "deadromeo/topicdesc",
+	"type": "phpbb-extension",
+	"description": "Расширение позволит добавлять мини-описание к каждой теме",
+	"homepage": "http://phpbbworld.ru/viewtopic.php?f=25&t=42",
+	"version": "1.0.0",
+	"time": "2020-12-02",
+	"license": "GPL-2.0",
+		"authors": [{
+			"name": "DeaDRoMeO",
+			"homepage": "http://hello-vitebsk.ru",
+			"role": "Developer"
+		}],
+	"require": {
+		"php": ">=5.3.3",
+		"phpbb/phpbb": ">=3.3.0"
+	},
+	"extra": {
+		"display-name": "TopicDesc",
+		"soft-require": {
+         "phpbb/phpbb": ">=3.3.0"
+		 }
+	}
+}
+

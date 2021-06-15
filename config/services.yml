@@ -1,0 +1,10 @@
+services:
+    deadromeo.topicdesc.listener:
+        class: deadromeo\topicdesc\event\listener
+        arguments:
+            - '@dbal.conn'
+            - '@auth'
+            - '@template'
+            - '@user'
+        tags:
+            - { name: event.listener }
